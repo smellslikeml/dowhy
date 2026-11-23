@@ -2,6 +2,7 @@
 
 from . import auto, config, divergence, ml, shapley, stats, uncertainty, util
 from .anomaly import anomaly_scores, attribute_anomalies
+from .anomaly_in_distribution import find_root_causes_in_distribution
 from .anomaly_scorers import (
     InverseDensityScorer,
     ITAnomalyScorer,
